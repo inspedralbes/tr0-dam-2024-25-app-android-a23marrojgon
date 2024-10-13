@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="!Bienvenido!"
+        android:textSize="32sp"
+        android:textColor="#3F51B5"
+        android:layout_gravity="center"
+        android:paddingBottom="30dp"/>
+
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jugar"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configuracion"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
